@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# AI Tools Hub Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend application for the AI Tools Hub, built with React.
+It provides a central place to access various AI-powered tools.
 
-## Available Scripts
+## Available Tools
 
-In the project directory, you can run:
+- **Note Taker**: Capture and organize your thoughts with AI-powered note-taking.
+- **Email Enhancer**: Improve your email writing with AI suggestions for tone, grammar, and clarity.
+- **Flashcards**: Create and study flashcards efficiently using AI to generate questions and answers.
+- **Brainstorming**: Generate creative ideas and solutions with AI-assisted brainstorming sessions.
+- **Meeting Summary**: Get concise summaries of your meetings, highlighting key decisions and action items.
+- **CSV Visualizer**: Transform your CSV data into insightful visualizations and charts.
+- **PDF Analyzer**: Extract key information, summarize, and analyze content from PDF documents.
 
-### `npm start`
+## Setup and Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up and run the frontend application, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.  **Navigate to the frontend directory**:
+    ```bash
+    cd frontend
+    ```
 
-### `npm test`
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  **Start the development server**:
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+    This will open the application in your browser at `http://localhost:3000` (or another available port).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   `src/pages`: Contains page-level components (e.g., Home, Tools).
+-   `src/components`: Contains reusable UI components and individual tool implementations.
+-   `src/api.js`: Provides mock implementations for AI API calls. In a real-world scenario, this would connect to a backend AI service.
+-   `src/App.js`: Main application component, handles routing.
+-   `src/index.js`: Entry point of the React application.
+-   `src/App.css`: Global styles for the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Further Development
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   **Integrate with a real AI Backend**: Replace the mock implementations in `src/api.js` with actual API calls to AI services.
+-   **Enhance Tool Functionality**: Add more features and sophistication to each individual tool.
+-   **Add Unit Tests**: Implement unit tests for components and utilities.
+-   **Improve UI/UX**: Further refine the styling and user experience.
